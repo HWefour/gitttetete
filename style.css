@@ -1,7 +1,21 @@
+body {
+    background-color: #011627;
+}
+
 .presentation {
     background-image: url(./imgs/ganapathy-kumar-GLmhbqbn1WA-unsplash\ 1\ \(1\).png);
     width: 1920px;
     height: 1281.56px;
+    
+}
+.gradient {
+    position: absolute;
+    width: 1920px;
+    height: 377px;
+    left: 1px;
+    top: 913px;
+
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
 }
 /* MENU */
 /* header{
@@ -94,14 +108,42 @@ h1{
     font-family: 'ABeeZee';
 } 
 /* fin texte rando*/
+#scroll {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 190%;
+    text-orientation: upright;
+    transform: rotate(-90deg);
+    margin-bottom: 0;
+    margin-right: 1475px;
+    
+
+    
+}
 
 /*SOCIAL */
 
-.social {
-    width: fit-content;
-    height: fit-content;
+.social{
+   display: flex;
+   justify-content: end;
+   margin-right: 220px;
 }
-.logos {
+#pipe {
+    display: flex;
+    justify-content: start;
+    margin-left: 220px;
+    height: 80px;
+    width: 2px;
+    margin-right: 1460px;
+    margin-top: 20px;
+}
+
+.logos{
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -110,6 +152,72 @@ h1{
 #logo1 ,
 #logo2 ,
 #logo3 {
-    height: 22px;
+    height: 20px;
     width: 18px;
+    margin-bottom: 10px;
+}
+/* fin de social*/
+
+/* reservation*/
+.reservation {
+    background-color: #011627;
+    width: 1920px;
+}
+
+.reservation p {
+    color: white;
+}
+.reservation h2{
+    color: white;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%; 
+    letter-spacing: -0.02em;
+}
+.res_desc {
+    width: 1200px;
+    height: 170px;
+    display: flex;
+    justify-content: end;
+}
+.res_desc h2 {
+    color: white;
+    margin-left: 174px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    /* float: left; */
+}
+.res_desc > p {
+    
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%; 
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    width: 550px;
+    margin-top: 92px;
+    margin-right: 176px;
+    margin-bottom: 0px;
+    
+
+}
+
+.scrollbar {
+    width: 1200px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 282px;
+}
+.scrollbar p:hover {
+    color: #41EAD4;
 }
