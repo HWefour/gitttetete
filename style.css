@@ -1,10 +1,14 @@
 body {
     background-color: #011627;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .presentation {
     background-image: url(./imgs/ganapathy-kumar-GLmhbqbn1WA-unsplash\ 1\ \(1\).png);
-    width: 1920px;
+    width: 1920px; 
     height: 1281.56px;
     
 }
@@ -177,14 +181,14 @@ h1{
     letter-spacing: -0.02em;
 }
 .res_desc {
-    width: 1200px;
+    width: 1400px;
     height: 170px;
     display: flex;
     justify-content: end;
 }
 .res_desc h2 {
     color: white;
-    margin-left: 174px;
+    /* margin-left: 174px; */
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -203,16 +207,18 @@ h1{
     letter-spacing: -0.02em;
     margin-top: 0;
     width: 550px;
-    margin-top: 92px;
+    margin-top: 80px;
     margin-right: 176px;
     margin-bottom: 0px;
+    margin-left: 30px;
+    width: 400px;
     
 
 }
 
 .scrollbar {
     width: 1200px;
-    margin-top: 90px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -220,4 +226,73 @@ h1{
 }
 .scrollbar p:hover {
     color: #41EAD4;
+}
+.choosing_menu{
+    height:10px;
+}
+#choosing_menu1 {
+    width:1000px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 580px;
+    
+} 
+#choosing_menu2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+
+}
+.showcase {
+    margin-top: 200px ;
+    height: 633px;
+    background-image: url(./Vector.png); /*resize l'image apres */
+    background-repeat: no-repeat;
+    background-position: top -809px right 1130px;
+    
+    
+}
+.showcase > h2 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 110%;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.showcase > p {
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width: 1345px;
+}
+#dunePilat{
+    border-radius:8px;
+    margin-left: 300px;
+    float: left;
+    margin-right: 100px;
+}
+.deals {
+    display: flex;
+    justify-content: end;
+    background-color: #00C9E0;
+    border-radius: 40px;
+    margin-right: 263px;
+    margin-top: 70px;
+    width: 282px;
+    height: 65px;
+    text-align: center;
+    color: white;
+   /*  font-size: 16px;
+    font-weight: 400;
+    font-family: 'ABeeZee'; */
+}
+.deals > span {
+    padding-top: 9px;
+    padding-right: 73px;
 }
